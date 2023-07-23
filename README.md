@@ -6,9 +6,11 @@ implement sm2 2P decrypt with real network communication
 # 实现方式
 具体协议如图所示：
 ![182012135-1a5d06c7-224b-4612-b090-477f91d09918](https://github.com/jlwdfq/project-16/assets/129512207/929b7fae-8ffe-4417-8db7-20e1b2884129)
+
 客户端与服务器在保存有各自的私钥分量的情况下，需要协同，通过交换利用各自私钥得到的参数T1、T2，才能最终解密
 
 同时使用python中的网络链接代码库socket库来模拟真实的网络连接中，客户端和服务器双方的传递参数，解密密文的过程。
+
 如图所示：
 ![L~VT@87U0KAUFNJ$93P3V$3](https://github.com/jlwdfq/project-16/assets/129512207/2ec449fc-728c-4ed8-98c5-3a4b1db58275)
 
